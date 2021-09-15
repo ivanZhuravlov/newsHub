@@ -1,0 +1,30 @@
+{
+  "name": "newshub",
+  "version": "1.0.0",
+  "description": "News share",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//ivanZhuravlov/newsHub.git"
+  },
+  "keywords": [
+    "news",
+    "express",
+    "vue",
+    "node"
+  ],
+  "author": "ivanZhuravlov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
